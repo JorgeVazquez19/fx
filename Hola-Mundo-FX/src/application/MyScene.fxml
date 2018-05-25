@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="393.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="suma" layoutX="71.0" layoutY="308.0" mnemonicParsing="false" onAction="#suma" prefHeight="58.0" prefWidth="67.0" text="+" />
+      <TextField fx:id="num1" layoutX="212.0" layoutY="72.0" />
+      <Button fx:id="resta" layoutX="179.0" layoutY="308.0" mnemonicParsing="false" onAction="#restar" prefHeight="58.0" prefWidth="67.0" text="-" />
+      <Button fx:id="multiplicacion" layoutX="296.0" layoutY="308.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="58.0" prefWidth="67.0" text="x" />
+      <TextField fx:id="num2" layoutX="212.0" layoutY="121.0" />
+      <Label layoutX="71.0" layoutY="76.0" prefHeight="17.0" prefWidth="67.0" text="1º Numero" />
+      <Label layoutX="71.0" layoutY="125.0" prefHeight="17.0" prefWidth="67.0" text="2º Numero" />
+      <Label layoutX="71.0" layoutY="188.0" prefHeight="17.0" prefWidth="67.0" text="Resultado" />
+      <TextField fx:id="resultado" layoutX="212.0" layoutY="184.0" />
+   </children>
+</AnchorPane>
